@@ -1,0 +1,66 @@
+#bro
+{
+    background-color:#232324;
+}
+.square
+{
+    width:30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin:1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
+    -webkit-transition:background 0.6s;
+    -moz-transition: background 0.6s;
+}
+#container
+{
+    max-width: 600px;
+    margin:3% auto;
+}
+h1
+{
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:0.5;
+    padding:20 0;
+}
+#stripe
+{
+    background: white;
+    height:30px;
+    text-align: center;
+    color:black;
+}
+.selected
+{
+    background:blue;
+}
+#huh
+{
+    font-size:200%;
+}
+button
+{
+    border:none;
+    background-color: white;
+    height:100%;
+    font-weight: 700;
+    color:steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition:all 0.2s;
+}
+#message
+{
+    display:inline-block;
+    width:20%;
+}
+button:hover
+{
+    color:white;
+    background-color: steelblue;
+}
